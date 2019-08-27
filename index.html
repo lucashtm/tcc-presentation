@@ -1,123 +1,176 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-background-image="img/title_bg.gif">
-					<h4>Utilização da Transformada Rápida de Fourier para detecção de notas musicais no ambiente de software livre da KDE</h4>
-					Lucas Monteiro
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-image="img/title_bg.gif">
+				<h4>Utilização da Transformada Rápida de Fourier para detecção de notas musicais no ambiente de software livre
+					da KDE</h4>
+				Lucas Monteiro
+			</section>
+			<section>
+				<section>
+					<h4>Software Livre</h4>
+					<img src="img/gnu.png" alt="">
 				</section>
 				<section>
-					<section>
-						<h4>Software Livre</h4>
-						<img src="img/richard_stallman.jpg" alt="">
-					</section>
-					<section>
-						<h4>Projeto GNU</h4>
-						<img src="img/gnu_project.png" alt="">
-					</section>
-					<section>
-						<h4>Free Software Foundation</h4>
-						<img src="img/fsf.png" alt="">
-					</section>
+					<h4>Richard Stallman</h4>
+					<img src="img/richard_stallman.jpg" alt="Richard Stallman">
 				</section>
 				<section>
-					<section>
-						<h4>KDE</h4>
-						<img src="img/kde.png" alt="">
-					</section>
-					<section>
-						<img src="img/konqi.png" alt="">
-					</section>
-					<section>
-						<h4>Lakademy</h4>
-						<img src="img/lakademy.jpg" alt="">
-					</section>
-					<section>
-						<h4>KDE Edu</h4>
-						<img src="img/kde_edu.png" alt="">
-					</section>
+					<h4>Projeto GNU</h4>
+					<img src="img/gnu_project.png" alt="">
 				</section>
 				<section>
-					<section>
-						<h4>Minuet</h4>
-						<img src="img/minuet.jpeg" alt="">
-					</section>
-					<section>
-						<h4>Percepção de Acordes</h4>
-						<img src="img/chords.png" alt="">
-					</section>
-					<section>
-						<h4>Percepção de Intervalos</h4>
-						<img src="img/intervals.png" alt="">
-					</section>
-					<section>
-						<h4>Percepção de Rítmo</h4>
-						<img src="img/rythm.png" alt="">
-					</section>
-					<section>
-						<h4>Percepção de Escalas</h4>
-						<img src="img/scales.png" alt="">	
-					</section>
+					<h4>Linus Torvalds</h4>
+					<img src="img/linus_torvalds.jpg" alt="">
 				</section>
 				<section>
-					<h4>Exercícios Práticos de Canto</h4>
+					<h4>Free Software Foundation</h4>
+					<img src="img/fsf.png" alt="">
+				</section>
+			</section>
+			<section>
+				<section>
+					<h4>KDE</h4>
+					<img src="img/kde.png" alt="">
 				</section>
 				<section>
-					<section>
-						<h4>Transformada de Fourier</h4>
-						<img src="img/fourier_series.gif" alt="">
-					</section>
-					<section>
-						<img src="img/regular_sound_wave.png" alt="">
-					</section>
-					<section>
-						<img src="img/fourier_transform.png" alt="">
-					</section>
-					<section>
-						<h4>FFT</h4>
-						<h4>(Fast Fourier Transform)</h4>
-					</section>
+					<h4>Mathias Ettrich</h4>
+					<img src="img/mathias_ettrich.jpg" alt="">
 				</section>
-			</div>
+				<section>
+					<h4>Konqi</h4>
+					<img src="img/konqi.png" alt="">
+				</section>
+				<section>
+					<h4>KDE Edu</h4>
+					<img src="img/kde_edu.png" alt="">
+				</section>
+				<section>
+					<h4>Lakademy</h4>
+					<img src="img/lakademy.jpg" alt="">
+				</section>
+			</section>
+			<section>
+				<section>
+					<h4>Minuet</h4>
+					<img src="img/minuet.jpeg" alt="">
+				</section>
+				<section>
+					<h4>Percepção de Acordes</h4>
+					<img src="img/chords.png" alt="">
+				</section>
+				<section>
+					<h4>Percepção de Intervalos</h4>
+					<img src="img/intervals.png" alt="">
+				</section>
+				<section>
+					<h4>Percepção de Rítmo</h4>
+					<img src="img/rythm.png" alt="">
+				</section>
+				<section>
+					<h4>Percepção de Escalas</h4>
+					<img src="img/scales.png" alt="">
+				</section>
+			</section>
+			<section>
+				<h4>Exercícios Práticos de Canto</h4>
+				<img src="img/solfege.png" alt="">
+			</section>
+			<section>
+				<section>
+					<h4>Transformada de Fourier</h4>
+					<img src="img/fourier_series.gif" alt="">
+				</section>
+				<section>
+					<img src="img/beethoven.png" alt="">
+					<h4>Beethoven - 5th Symphony</h4>
+				</section>
+				<section>
+					<img src="img/sambo.png" alt="">
+					<h4>Sambô - Sunday Bloody Sunday</h4>
+				</section>
+				<section>
+					<img src="img/fourier_transform.png" alt="">
+				</section>
+				<section>
+					<h4>FFT</h4>
+					<h5>(Fast Fourier Transform)</h5>
+				</section>
+				<section>
+					<h4>FFTW</h4>
+					<h5>(Fastest Fourier Transform in the West)</h5>
+					<img src="img/fftw.png" alt="">
+				</section>
+			</section>
+			<section>
+				<section>
+					<h4>Sistemas de Temperamento(Afinação)</h4>
+				</section>
+				<section>
+					<h4>12-Tone Equal Temperament</h4>
+					<img src="img/frequencies_table.png" alt="">
+				</section>
+				<section>
+					<img src="img/piano_key_equation.png" alt="">
+				</section>
+			</section>
+			<section>
+				<section>
+					<img src="img/github_page.png" alt="">
+				</section>
+				<section>
+					<p>https://github.com/lucashtm/minuet</p>
+				</section>
+			</section>
+			<section data-background-image="img/fsf.gif">
+			</section>
+			<section data-background-image="img/title_bg.gif">
+				<h4>Obrigado ;)</h4>
+			</section>
 		</div>
+	</div>
 
-		<script src="js/reveal.js"></script>
+	<script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true }
+			]
+		});
+	</script>
+</body>
+
 </html>
